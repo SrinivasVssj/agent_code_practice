@@ -21,3 +21,4 @@ model = InferenceClientModel()
 agent = CodeAgent(tools=[], model=model, verbosity_level=0)
 
 result = agent.run("What's the 20th Fibonacci number?")
+print("Result:", result)
